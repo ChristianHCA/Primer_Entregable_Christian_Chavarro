@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola, mi primera Pagina web :b</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+    <!-- Animate.css -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+
+    <!-- AOS - Animate on Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../Style/style.css">
+</head>
+<body>
+
+    <!-- ==================== NAVBAR ==================== -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="#inicio">
+                <img src="../img/OIP.webp" alt="Logo" class="logo-navbar">
+                <i></i>Semi<span>llero</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#eventos">Eventos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#equipos">Equipos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resultados">Resultados</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== HERO ==================== -->
+    <header id="inicio" class="hero-section">
+        <div class="hero-content animate__animated animate__fadeInUp">
+            <h1>Semillero de Investigación<br></h1>
+            <p class="lead">Explorando fronteras del conocimiento en Ingeniería de Sistemas. Innovación, investigación y tecnología al servicio de la sociedad.</p>
+            <a href="https://www.uniamazonia.edu.co/inicio/index.php/es/" class="btn btn-hero animate-pulse">
+                <i class="fas fa-rocket me-2"></i>Conócenos
+            </a>
+        </div>
+    </header>
+
+    <!-- ==================== ESTADÍSTICAS ==================== -->
+    <section id="stats" class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-6 col-md-3 mb-3 mb-md-0">
+                    <h2 class="counter" data-target="25">5</h2>
+                    <p class="mb-0">Integrantes</p>
+                </div>
+                <div class="col-6 col-md-3 mb-3 mb-md-0">
+                    <h2 class="counter" data-target="12">3</h2>
+                    <p class="mb-0">Proyectos</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h2 class="counter" data-target="8">5</h2>
+                    <p class="mb-0">Publicaciones</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h2 class="counter" data-target="15">3</h2>
+                    <p class="mb-0">Eventos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="bg-light-custom">
+        <div class="container">
+                <h2 class="text-center mb-2" data-aos="fade-up">Sobre el Semillero</h2>
+                <p class="text-center mb-2" data-aos="fade-up">Conoce nuestra historia, misión y las líneas de investigación que nos impulsan.</p>
+           
+
+            <div class="row mb-5"> 
+                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                    <img src="../img/imagen_semillero.webp" alt="imagen del semillero" class="rounded-4 shadow w-100" style="object-fit:cover;height:350px;">
+                </div>
+                <div class="col-lg-6 d-flex align-items-center" data-aos="fade-left">
+                    <div>
+                        <h3 class="mb-3">Nuestra Historia</h3>
+                        <p class="text-muted" style="line-height:1.8;">El semillero de investigacion de <strong>Programacion</strong> fue fundado en 2020 por un grupo de estudiantes apasionados por la investigación en el programa de Ingeniería de Sistemas. Desde entonces, hemos crecido hasta convertirnos en un referente de investigación aplicada, fomentando la curiosidad científica y el desarrollo tecnológico entre los estudiantes de la universidad.</p>
+                        <p class="text-muted">Nuestro compromiso es formar investigadores íntegros, creativos y con capacidad de impacto social.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Misión, Visión, Objetivos -->
+            <div class="row g-4 mb-5">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+                    <div class="about-card">
+                        <div class="icon-box"><i class="fas fa-bullseye"></i></div>
+                        <h4>Misión</h4>
+                        <p>Fomentar la investigación formativa y aplicada en el área de la Ingeniería de Sistemas, promoviendo la innovación tecnológica y la formación integral de estudiantes investigadores.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="about-card">
+                        <div class="icon-box"><i class="fas fa-eye"></i></div>
+                        <h4>Visión</h4>
+                        <p>Ser reconocidos como un semillero líder en investigación tecnológica a nivel regional, contribuyendo al avance del conocimiento y la transformación digital de la sociedad.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="about-card">
+                        <div class="icon-box"><i class="fas fa-flag"></i></div>
+                        <h4>Objetivos</h4>
+                        <p>Desarrollar proyectos de investigación aplicada, publicar artículos científicos, participar en eventos académicos y formar nuevos investigadores comprometidos con la excelencia.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Líneas de investigación - CSS Grid -->
+             <h3 class="text-center mb-2" data-aos="fade-up">Líneas de Investigación</h3>
+            <div class="lineas-grid" data-aos="fade-up">
+    
+    <div class="linea-item">
+        <div class="icon-box"><i class="fas fa-code"></i></div>
+        <h5>Desarrollo de Software</h5>
+        <p>Investigación en nuevas tecnologías y arquitecturas web modernas.</p>
+    </div>
+
+    <div class="linea-item">
+        <div class="icon-box"><i class="fas fa-microchip"></i></div>
+        <h5>Internet de las Cosas (IoT)</h5>
+        <p>Creación de dispositivos conectados para soluciones inteligentes.</p>
+    </div>
+
+    <div class="linea-item">
+        <div class="icon-box"><i class="fas fa-brain"></i></div>
+        <h5>Inteligencia Artificial</h5>
+        <p>Aplicación de modelos de aprendizaje automático en entornos reales.</p>
+    </div>
+
+</div>
+        </div>
+    </section>
+
+    <!-- ==================== EVENTOS ==================== -->
+    <section id="eventos">
+        <div class="container">
+<div class="section-title" data-aos="fade-up">               
+                <p>Descubre nuestros próximos eventos y actividades académicas.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up">
+                    <article class="event-card">
+                        <img src="./img/Imagen_congreso_ia.jpg" alt="Conferencia de IA">
+                        <div class="card-body">
+                            <div class="event-date"><i class="far fa-calendar-alt"></i> 25 Abril 2026</div>
+                            <h5>Conferencia: IA y el Futuro</h5>
+                            <p>Auditorio Principal. Exploración de las tendencias actuales en inteligencia artificial y su impacto en la ingeniería.</p>
+                            <small class="text-muted"><i class="fas fa-map-marker-alt me-1"></i>Sede Porvenir, auditorio</small>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <article class="event-card">
+                        <img src="./img/Imagen_conferencia_robotica.jpg" alt="Taller de Robótica">
+                        <div class="card-body">
+                            <div class="event-date"><i class="far fa-calendar-alt"></i> 10 Mayo 2026</div>
+                            <h5>Taller de Robótica con IoT</h5>
+                            <p>Taller práctico de robótica aplicada utilizando sensores IoT y Arduino para proyectos de automatización.</p>
+                            <small class="text-muted"><i class="fas fa-map-marker-alt me-1"></i>Sede centro, Sala UNITIC</small>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <article class="event-card">
+                        <img src="./img/Imagen_conferencia_programacion.jpg" alt="Programacion">
+                        <div class="card-body">
+                            <div class="event-date"><i class="far fa-calendar-alt"></i> 28 Mayo 2026</div>
+                            <h5>Jornada de Programacion 2026</h5>
+                            <p>48 horas de innovación y desarrollo. Equipos multidisciplinarios resolviendo retos tecnológicos reales y logicos.</p>
+                            <small class="text-muted"><i class="fas fa-map-marker-alt me-1"></i>Sede Porvenir, Bloque 6</small>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== EQUIPOS ==================== -->
+    <section id="equipos" class="bg-light-custom">
+        <div class="container">
+            <h3 class="text-center mb-2" data-aos="fade-up">Equipos</h3>
+
+                <p class="text-center mb-2" data-aos="fade-up">Conoce a los integrantes y equipos que conforman nuestro semillero.</p>
+            </div>
+
+            <!-- Equipo 1 -->
+            <h4 class="text-center mb-4" data-aos="fade-up"><i class="fas fa-users me-2 text-primary"></i>Equipo de Inteligencia Artificial</h4>
+            <div class="row g-4 mb-5">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                    <div class="team-card">
+                        <img src="./img/Christian_Equipo.jpg" alt="Christian Chavarro">
+                        <h5>Christian Chavarro</h5>
+                        <p class="role">Líder de equipo</p>
+                        <p>Estudiante de 6° semestre. Especializado en Ciberseguridad y Analisis de datos.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="team-card">
+                        <img src="./img/Kiara_Equipo.jpg" alt="Kiara Loaiza">
+                        <h5>Kiara Loaiza</h5>
+                        <p class="role">Investigadora</p>
+                        <p>Estudiante de 4° semestre. Enfocada en procesos legales y estructuras de proyectos complejos.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="team-card">
+                        <img src="./img/CarlosEquipo.jpg" alt="Carlos Soria">
+                        <h5>Carlos Soria</h5>
+                        <p class="role">Vicecapitan</p>
+                        <p>Estudiante de 6° semestre. Trabajo en estructura de datos y estadistica general de sistemas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h4 class="text-center mb-4" data-aos="fade-up"><i class="fas fa-shield-halved me-2 text-primary"></i>Equipo de Ciberseguridad</h4>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                    <div class="team-card">
+                        <img src="./img/Sebastian_Equipo.jpg" alt="Sebastian Chavarro">
+                        <h5>Sebastian Chavarro</h5>
+                        <p class="role">Líder de equipo</p>
+                        <p>Estudiante retirado, analista en distribuvion y comportamiento dentro del proyecto</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="team-card">
+                        <img src="./img/David_Equipo.jpg" alt="David Rivera">
+                        <h5>David Rivera</h5>
+                        <p class="role">Investigador</p>
+                        <p>Estudiante de 7° semestre. Especializado en seguridad en la nube.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== RESULTADOS ==================== -->
+    <section id="resultados">
+        <div class="container">
+            
+                <h2 class="text-center mb-2" data-aos="fade-up">Resultados de Investigación</h2>
+                <p class="text-center mb-2" data-aos="fade-up">Conoce los proyectos y logros más destacados de nuestro semillero.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="result-card">
+                        <div class="result-icon"><i class="fas fa-robot"></i></div>
+                        <h5>Chatbot Universitario</h5>
+                        <p>Desarrollo de un asistente virtual basado en NLP para responder consultas frecuentes de estudiantes. Reducción del 40% en tiempos de respuesta administrativa.</p>
+                        <span class="badge bg-primary">Completado 2025</span>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="result-card">
+                        <div class="result-icon"><i class="fas fa-leaf"></i></div>
+                        <h5>Sistema IoT Agrícola</h5>
+                        <p>Implementación de sensores IoT para monitoreo de cultivos en fincas de la región. Incremento del 25% en la eficiencia del riego.</p>
+                        <span class="badge bg-success">En producción</span>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="result-card">
+                        <div class="result-icon"><i class="fas fa-lock"></i></div>
+                        <h5>Auditoría de Seguridad Web</h5>
+                        <p>Análisis de vulnerabilidades en plataformas web institucionales. Identificación y corrección de 15 vulnerabilidades críticas.</p>
+                        <span class="badge bg-warning text-dark">En curso</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PRODUCTOS ACADÉMICOS ==================== -->
+    <section id="productos" class="bg-light-custom">
+        <div class="container">
+                <h2 class="text-center mb-2" data-aos="fade-up">Productos Académicos</h2>
+                <p class="text-center mb-2" data-aos="fade-up">Publicaciones, artículos y materiales disponibles para descarga.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="product-item" data-aos="fade-up">
+                        <div class="product-icon"><i class="fas fa-book"></i></div>
+                        <div class="product-info">
+                            <h5>Introducción al lenguaje  sobre Phyton Para principiantes</h5>
+                            <p>Kiara Loaiza Pulido  — 2023 | PDF</p>
+                        </div>
+                        <a href="./Documento/Pdfs/PDF_Lenguaje_python.pdf" class="btn-download"><i class="fas fa-external-link-alt me-1"></i>Ver</a>
+                    </div>
+                    <div class="product-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="product-icon"><i class="fas fa-file-alt"></i></div>
+                        <div class="product-info">
+                            <h5>Análisis de sistemas-Ciberseguridad en filtracion de datos</h5>
+                            <p>Carlos Soria Echeverry, Christian Chavarro  — 2024 | documento</p>
+                        </div>
+                        <a href="./Documento/Pdfs/PDF_Analisis_ciberseguridad.pdf" class="btn-download"><i class="fas fa-external-link-alt me-1"></i>Ver</a>
+                    </div>
+                    <div class="product-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="product-icon"><i class="fas fa-file-powerpoint"></i></div>
+                        <div class="product-info">
+                            <h5>Aplicacion de datos de inteligencia artificial internacional</h5>
+                            <p>Sebastian Chavarro — 2022 | Ponencia</p>
+                        </div>
+                        <a href="./Documento/Pdfs/PDF_Inteligencia_artificial.pdf" class="btn-download"><i class="fas fa-external-link-alt me-1"></i>Ver</a>
+                    </div>
+                    <div class="product-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="product-icon"><i class="fas fa-newspaper"></i></div>
+                        <div class="product-info">
+                            <h5>Robotica educativa en steam </h5>
+                            <p>Gonzalez fernandez — 2021 | Informe</p>
+                        </div>
+                        <a href="./Documento/Pdfs/PDF_Robotica_educativa_steam.pdf" class="btn-download"><i class="fas fa-external-link-alt me-1"></i>Ver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Parte galeria -->
+    <section id="galeria">
+        <div class="container">
+               <h3 class="text-center mb-2" data-aos="fade-up">Galería </h3>
+            </div>
+            <div class="gallery-grid" data-aos="fade-up">
+                <div class="gallery-item">
+                    <img src="./img/Imagen_uniamazonia_campus.jpg" alt="Campus universitario" loading="lazy">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/Imagen_feria.jpg" alt="Feria de Programacion" loading="lazy">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/Imagen_salas_computo.jpg" alt="Sala de computo" loading="lazy">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/Imagen_congreso_tic.jpg" alt="Tic" loading="lazy">
+                    <div class="gallery-overlay"><i class="fas fa-search-plus"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="modal fade lightbox-modal" id="lightboxModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    <img id="lightboxImg" src="" alt="Imagen ampliada" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== CONTACTO ==================== -->
+    <section id="contacto" class="bg-light-custom">
+        <div class="container">
+                <h2 class="text-center mb-2" data-aos="fade-up">Contáctanos</h2>
+                <p class="text-center mb-2" data-aos="fade-up">¿Tienes preguntas o deseas unirte al semillero? Escríbenos.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-7" data-aos="fade-right">
+                    <div id="alertContainer"></div>
+                    <form id="contactForm" class="contact-form">
+                        <div class="mb-3">
+                            <label for="contactName" class="form-label fw-semibold">Nombre completo</label>
+                            <input type="text" class="form-control" id="contactName" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="contactEmail" class="form-label fw-semibold">Correo electrónico</label>
+                            <input type="email" class="form-control" id="contactEmail" placeholder="correo@ejemplo.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="contactMessage" class="form-label fw-semibold">Mensaje</label>
+                            <textarea class="form-control" id="contactMessage" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-submit">
+                            <i class="fas fa-paper-plane me-2"></i>Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+                <div class="col-lg-5" data-aos="fade-left">
+                    <div class="contact-info-card">
+                        <h4><i class="fas fa-info-circle me-2"></i>Información del Semillero</h4>
+                        <div class="contact-info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h6>Dirección</h6>
+                                <p>Sede Porvenir, Bloque de Ingeniería, Bloque 7</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h6>Correo</h6>
+                                <p>chc.chavarro@udla.edu.co</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h6>Teléfono</h6>
+                                <p>+57 123456789</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h6>Horario</h6>
+                                <p>Disponible siempre que se puede</p>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/christian.h.chavarro/"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/christiansito7h/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/@ChristianHCA7"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Semillero</h5>
+                    <p>Semillero de Investigación del programa de Ingeniería de Sistemas. Comprometidos con la innovación y la excelencia académica.</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Enlaces Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#inicio"><i class="fas fa-chevron-right me-2 small"></i>Inicio</a></li>
+                        <li class="mb-2"><a href="#sobre"><i class="fas fa-chevron-right me-2 small"></i>Sobre Nosotros</a></li>
+                        <li class="mb-2"><a href="#eventos"><i class="fas fa-chevron-right me-2 small"></i>Eventos</a></li>
+                        <li class="mb-2"><a href="#contacto"><i class="fas fa-chevron-right me-2 small"></i>Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Universidad De la Amanozonia</h5>
+                    <p>Programa de Ingeniería de Sistemas<br>Facultad de Ingeniería</p>
+                    <p class="small">&copy; 2026 Christian. Todos los derechos reservados. CESE-KALP</p>
+                </div>
+            </div>
+            <hr>
+            <p class="text-center mb-0 small">Desarrollado Por  Kitiam </p>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <button class="back-to-top" title="Volver arriba">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true,
+            offset: 100
+        });
+    </script>  
+    <script src="../Js/scrip.js"> </script>
+
+</body>
+</html>
